@@ -1,0 +1,5 @@
+-- Define the business_type table below
+CREATE TABLE business_type (
+    id serial PRIMARY KEY,
+    description TEXT NOT NULL
+);
