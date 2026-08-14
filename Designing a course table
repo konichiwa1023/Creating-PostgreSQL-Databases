@@ -1,0 +1,10 @@
+CREATE TABLE course (
+    -- Check the data type for the id column
+    id SERIAL PRIMARY KEY,
+  
+    -- Ensure the name column is correct
+    name VARCHAR(50) NOT NULL,
+  
+    -- Consider if meeting_time is the right choice for the third column
+    max_students SMALLINT
+);
