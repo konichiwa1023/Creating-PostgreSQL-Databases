@@ -1,0 +1,5 @@
+-- Create a table named 'bank' in the 'loan_504' schema
+CREATE TABLE loan_504.bank (
+    id serial PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
