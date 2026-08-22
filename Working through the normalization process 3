@@ -1,0 +1,5 @@
+CREATE TABLE program (
+    id serial PRIMARY KEY,
+    description text NOT NULL,
+    max_amount DECIMAL(9,2) NOT NULL
+);
