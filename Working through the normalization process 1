@@ -1,0 +1,9 @@
+-- Add new columns to the borrower table
+ALTER TABLE borrower
+ADD COLUMN first_name VARCHAR (50) NOT NULL,
+ADD COLUMN last_name VARCHAR (50) NOT NULL;
+
+
+-- Remove column from borrower table to satisfy 1NF
+ALTER TABLE borrower
+DROP COLUMN full_name;
